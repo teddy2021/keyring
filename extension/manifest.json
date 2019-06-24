@@ -1,0 +1,18 @@
+
+	{"manifest_version": 2, 
+
+	"name":"Keyring", 
+
+	"description":"A password manager which keeps hold of the usernames and passwords for a users network of websites", 
+	
+	"version": 1,
+	
+	"author": "Kody M",
+
+
+	"browser_action": { "default_icton": "tab-icon.png",
+		"default_title":"Title"},
+
+       "chorme_url_overrides":{"newtab": "newtabl.html"},
+
+       "permissions": ["activeTab"]}
